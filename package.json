@@ -1,0 +1,27 @@
+{
+  "name": "test-npm-package",
+  "version": "1.0.0",
+  "description": "console library",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/jugal4801/npm-package.git"
+  },
+  "author": "jugal suthar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jugal4801/npm-package/issues"
+  },
+  "homepage": "https://github.com/jugal4801/npm-package#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
